@@ -53,9 +53,12 @@ of those sections to manage the look and feel of the site. */
 
 .services-section {
     height: 100%;
+	width:100%;
     padding-top: 150px;
     text-align: center;
 	background-image: url(../img/Account.gif);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
 }
 
 .contact-section {
