@@ -44,6 +44,7 @@ of those sections to manage the look and feel of the site. */
     padding-top: 150px;
     text-align: center;
 	background-image: url(../img/NUS_logo.jpg) no-repeat;
+	background-size;100:
 }
 
 .services-section {
