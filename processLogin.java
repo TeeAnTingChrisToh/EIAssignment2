@@ -12,7 +12,7 @@ import javax.servlet.http.HttpSession;
 import sloca.model.DemographicDAO;
 import sloca.model.User;
 
-@WebServlet(name = "processLogin", urlPatterns = {"/process-Login.do"})
+@WebServlet(name = "processLogin", urlPatterns = {"processLogin"})
 public class processLogin extends HttpServlet {
 
     /**
