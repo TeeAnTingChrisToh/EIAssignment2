@@ -57,7 +57,6 @@ of those sections to manage the look and feel of the site. */
     padding-top: 150px;
     text-align: center;
 	background: #A52A2A;
-	background-image: url(../img/Account.gif);
 	background-repeat: no-repeat;
 	background-size: 50% 50%;
 }
@@ -68,7 +67,6 @@ of those sections to manage the look and feel of the site. */
     padding-top: 150px;
     text-align: center;
 	background: #0000FF;
-	background-image: url(../img/Business.gif);
 	background-repeat: no-repeat;
 	background-size: 50% 50%;
 }
@@ -79,7 +77,6 @@ of those sections to manage the look and feel of the site. */
     padding-top: 150px;
     text-align: center;
 	background: #008B8B;
-	background-image: url(../img/Business.gif);
 	background-repeat: no-repeat;
 	background-size: 50% 50%;
 }
@@ -90,7 +87,6 @@ of those sections to manage the look and feel of the site. */
     padding-top: 150px;
     text-align: center;
 	background: #FFD700;
-	background-image: url(../img/Business.gif);
 	background-repeat: no-repeat;
 	background-size: 50% 50%;
 }
