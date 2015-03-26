@@ -71,6 +71,46 @@ of those sections to manage the look and feel of the site. */
 	background-size: 50% 50%;
 }
 
+.economics-section {
+    height: 100%;
+	width:100%;
+    padding-top: 150px;
+    text-align: center;
+	background-image: url(../img/Business.gif);
+	background-repeat: no-repeat;
+	background-size: 50% 50%;
+}
+
+.is-section {
+    height: 100%;
+	width:100%;
+    padding-top: 150px;
+    text-align: center;
+	background-image: url(../img/Business.gif);
+	background-repeat: no-repeat;
+	background-size: 50% 50%;
+}
+
+.law-section {
+    height: 100%;
+	width:100%;
+    padding-top: 150px;
+    text-align: center;
+	background-image: url(../img/Business.gif);
+	background-repeat: no-repeat;
+	background-size: 50% 50%;
+}
+
+.ss-section {
+    height: 100%;
+	width:100%;
+    padding-top: 150px;
+    text-align: center;
+	background-image: url(../img/Business.gif);
+	background-repeat: no-repeat;
+	background-size: 50% 50%;
+}
+
 inputs:-webkit-input-placeholder {
     color: #b5b5b5;
 }
