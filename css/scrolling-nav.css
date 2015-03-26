@@ -45,7 +45,7 @@ of those sections to manage the look and feel of the site. */
 .login-section {
     height: 80%;
 	width:100%;
-    padding-top: 30px;
+    padding-top: 50px;
     text-align: center;
 	background:#eee;
 	
@@ -56,6 +56,7 @@ of those sections to manage the look and feel of the site. */
 	width:100%;
     padding-top: 150px;
     text-align: center;
+	background: #A52A2A;
 	background-image: url(../img/Account.gif);
 	background-repeat: no-repeat;
 	background-size: 50% 50%;
