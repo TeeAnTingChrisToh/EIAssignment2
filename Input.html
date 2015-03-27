@@ -29,14 +29,6 @@
 <!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
 <body>
 
-	<%
-		String username = request.getParameter("username");
-        String password = request.getParameter("password");
-		
-		out.println(username);
-	%>
-
-
 	<section id="about" class="about-section">
         <div class="container">
             <div class="row">
@@ -81,7 +73,7 @@
 						<input type="text"class="inputs" placeholder="matriculation year" /> 
 						<br><br>
 						
-						<button class="btn btn-default page-scroll" type="submit">Login</button>
+						<button class="btn btn-default page-scroll" type="submit">Submit</button>
 					</form>
                 </div>
             </div>
