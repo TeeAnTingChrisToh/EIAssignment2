@@ -36,9 +36,11 @@ public class processLogin extends HttpServlet {
 
         if (username.equals("admin")) {
             if (password.equals("blackyellow")) {
-                HttpSession session = request.getSession();
-                session.setAttribute("authenticatedUser", username);
-                response.sendRedirect("admin");
+                
+				request.setAttribute("msg", "Welcome ");
+				RequestDispatcher rd = request.getRequestDispatcher("Input.html");
+                rd.forward(request, response);
+				
             } else {
                 request.setAttribute("msg", "Invalid Username/Password");
                 RequestDispatcher rd = request.getRequestDispatcher("Input.html");
