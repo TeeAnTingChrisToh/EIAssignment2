@@ -41,30 +41,8 @@ public class processLogin extends HttpServlet {
                 response.sendRedirect("admin");
             } else {
                 request.setAttribute("msg", "Invalid Username/Password");
-                RequestDispatcher rd = request.getRequestDispatcher("LoginUI.jsp");
+                RequestDispatcher rd = request.getRequestDispatcher("Input.html");
                 rd.forward(request, response);
             }
-        } else {
-            if (DemographicDAO.retrieveUserID(username) == null) {
-                request.setAttribute("msg", "Invalid Username/Password");
-                RequestDispatcher rd = request.getRequestDispatcher("LoginUI.jsp");
-                rd.forward(request, response);
-            } else {
-                //String userName = DemographicDAO.retrieveUserID(username);
-                User user = DemographicDAO.retrieve(username);
-                String pwd = user.getPwd();
-                if (password.equals(pwd)) {
-                    HttpSession session = request.getSession();
-                    session.setAttribute("authenticatedUser", username);
-                    //RequestDispatcher rd = request.getRequestDispatcher("MainMenuUI.jsp");
-                    //rd.forward(request, response);
-                    response.sendRedirect("MainMenuUI.jsp?username=" + username);
-                } else {
-                    request.setAttribute("msg", "Invalid Username/Password");
-                    RequestDispatcher rd = request.getRequestDispatcher("LoginUI.jsp");
-                    rd.forward(request, response);
-                }
-            }
-        }
-    }
+        } 
 }
