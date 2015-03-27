@@ -1,5 +1,3 @@
-package sloca.controller;
-
 import java.io.IOException;
 import java.io.PrintWriter;
 import javax.servlet.RequestDispatcher;
@@ -9,8 +7,6 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
-import sloca.model.DemographicDAO;
-import sloca.model.User;
 
 @WebServlet(name = "processLogin", urlPatterns = {"processLogin"})
 public class processLogin extends HttpServlet {
